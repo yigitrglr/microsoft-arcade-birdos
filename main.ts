@@ -26,7 +26,7 @@ let bottomImage: Image = null
 let topImage: Image = null
 let gap = 0
 let mySprite: Sprite = null
-scene.setBackgroundImage(assets.image`background`)
+scene.setBackgroundImage(assets.image`myImage`)
 info.setScore(0)
 effects.blizzard.startScreenEffect()
 mySprite = sprites.create(img`
